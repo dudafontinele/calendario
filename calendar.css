@@ -1,0 +1,37 @@
+table, td, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    transition: all 0.8s ease;
+}
+.Domingo {
+    color: red;
+}
+.azul {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: blue;
+}
+ 
+.verde {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: green;
+}
+.rosa{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color:pink
+}
+.roxo{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color:purple
+}
+td:hover{
+    color:aliceblue;
+    transition: all 0.4s ease;
+}
